@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset ="utf-8">
+		<title>New HTML5 autocomplete Attribute and dataist Element</title>
+	</head>
+
+	<body>
+		<h1><strong>Site Registration Form</strong></h1>
+
+		<p><a href = "http://www.uta.edu"><img src ="https://www.uta.edu/ucomm/identity/pix/UTA_A-logo.jpg " width ="75" height ="60" alt = "http://www.uta.edu"></a></p>
+
+		<p>Please complete the following form to register for our site</p>
+		
+		<form method ="post" autocomplete = "on" action="http://uta.edu">
+			
+			<input type ="hidden" name ="recipient" value ="email@uta.edu"/>			
+
+			<p><label>First Name:
+				<input type = "text" name = "fname"
+					placeholder = "First Name" size = "20" /> (First Name) 
+			   </label></p>
+
+			<p><label>Last Name:
+				<input type = "text" name = "lname"
+					placeholder = "Last Name" size = "20" /> (Last Name)
+			   </label></p>
+
+			<p><label>Email:
+				<input type = "text" id = "email" placeholder = "name@domain.com"/> (name@domain.com) 
+			   <label></p>		
+
+			<details><summary>Please fill out our optional survey</summary>
+				
+                        
+			<p>What year are you in college?</p>
+
+			<p>
+				<label><input type = "radio" name = "access" value = "Search"></label>
+				<label>Not yet in college<input type = "radio" name = "access" value = "Search"></label>
+				<label>Freshman<input type = "radio" name = "access" value = "Links"></label>
+				<label>Sophomore<input type = "radio" name = "access" value = "Site"></label>
+				<label>Junior<input type = "radio" name = "access" value = "Book"></label>
+				<label>Senior<input type = "radio" name = "access" value = "Other"></label>
+				<label>Graduate<input type = "radio" name = "access" value = "Other"></label>
+			</p></details>
+
+			
+			
+			<p><input type = "submit" value = "Submit" />
+		           <input type = "reset" value = "Clear" /></p>
+
+			<p id ="email">Contact Web Administrator @ <a href = "mailto:email@uta.edu">email@uta.edu</a></p>
+		
+		</form>
+	</body>
+</html>
+
+	
+	
